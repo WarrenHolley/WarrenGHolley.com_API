@@ -4,7 +4,7 @@
 # This is read, each request processed.
 # A file-based comms system was the easiest solution to request-queueing.
 
-#import RPi.GPIO as GPIO
+import RPi.GPIO as GPIO
 import os, sys, datetime
 import time
 import shutil
